@@ -25,9 +25,13 @@ stops.delete("Livingston")
 #6. Delete "Cumbernauld" from the array by index
 cumbernauld_index = stops.index("Cumbernauld")
 stops.delete_at(cumbernauld_index)
-p "solution to no.6 is #{stops} with Cumbernauld removed"
+#p "solution to no.6 is #{stops} with Cumbernauld removed"
 
 #7. Print the number of stops there are in the array?
+no_of_stops = stops.length
+p stops
+p "The solution to no.7 is #{no_of_stops} stops"
+
 #8. Show as many ways as you can to return "Falkirk High" from the array?
 #9. Reverse the positions of the stops in the array
 #10 Print out all the stops using a for loop
