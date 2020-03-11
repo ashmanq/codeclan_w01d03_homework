@@ -61,7 +61,11 @@ p "Jonathans' twitter handle is #{jonathan_twitter}"
 # 2. Get Erik's hometown
 erik_hometown = users["Erik"][:home_town]
 p "Erik's hometown is #{erik_hometown}"
+
 # 3. Get the array of Erik's lottery numbers
+erik_lottery_no = users["Erik"][:lottery_numbers]
+p "Eriks' lottery numbers are: #{erik_lottery_no}"
+
 # 4. Get the species of Avril's pet Monty
 # 5. Get the smallest of Erik's lottery numbers
 # 6. Return an array of Avril's lottery numbers that are even
