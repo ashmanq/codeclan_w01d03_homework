@@ -29,9 +29,13 @@ stops.delete_at(cumbernauld_index)
 
 #7. Print the number of stops there are in the array?
 no_of_stops = stops.length
-p stops
-p "The solution to no.7 is #{no_of_stops} stops"
+#p stops
+#p "The solution to no.7 is #{no_of_stops} stops"
 
 #8. Show as many ways as you can to return "Falkirk High" from the array?
+stop = stops[2]
+p stop
+p stops.at(2)
+
 #9. Reverse the positions of the stops in the array
 #10 Print out all the stops using a for loop
