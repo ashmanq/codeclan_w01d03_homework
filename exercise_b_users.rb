@@ -57,7 +57,10 @@ users = {
 # 1. Get Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
 jonathan_twitter = users["Jonathan"][:twitter]
 p "Jonathans' twitter handle is #{jonathan_twitter}"
+
 # 2. Get Erik's hometown
+erik_hometown = users["Erik"][:home_town]
+p "Erik's hometown is #{erik_hometown}"
 # 3. Get the array of Erik's lottery numbers
 # 4. Get the species of Avril's pet Monty
 # 5. Get the smallest of Erik's lottery numbers
