@@ -12,19 +12,21 @@ stops.unshift("Glasgow Queen Street")
 # We find the index number of Falkirk and add 1 to insert Polmont between Falkirk and Linlithgow
 falkirk_index_no = (stops.index("Falkirk High").to_i + 1)
 stops.insert(falkirk_index_no, "Polmont")
-p "solution to no.3 is #{stops}"
+#p "solution to no.3 is #{stops}"
 
 #4. Print out the index position of "Linlithgow"
-p stops.index("Linlithgow")
-p "solution to no.4 is #{stops}"
+linlithgow_index = stops.index("Linlithgow")
+#p "solution to no.4 is #{linlithgow_index}"
 
 #5. Remove "Livingston" from the array using its name
 stops.delete("Livingston")
-p "solution to no.5 is #{stops} with Livingston removed"
+#p "solution to no.5 is #{stops} with Livingston removed"
 
 #6. Delete "Cumbernauld" from the array by index
-stops.delete("Livingston")
-p stops
+cumbernauld_index = stops.index("Cumbernauld")
+stops.delete_at(cumbernauld_index)
+p "solution to no.6 is #{stops} with Cumbernauld removed"
+
 #7. Print the number of stops there are in the array?
 #8. Show as many ways as you can to return "Falkirk High" from the array?
 #9. Reverse the positions of the stops in the array
