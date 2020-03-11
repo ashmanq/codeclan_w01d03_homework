@@ -39,6 +39,10 @@ stop = stops[2]
 
 #9. Reverse the positions of the stops in the array
 reverse_stops = stops.reverse
-p reverse_stops
+#p reverse_stops
 
 #10 Print out all the stops using a for loop
+p "The solution for no.10 is:"
+for stop in stops
+  p stop
+end
