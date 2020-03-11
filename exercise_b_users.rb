@@ -71,6 +71,9 @@ avril_pet_species = users["Avril"][:pets][0][:species]
 p "Avril's pet species is #{avril_pet_species}"
 
 # 5. Get the smallest of Erik's lottery numbers
+erik_min_lottery_no = erik_lottery_no.min
+p "Eriks' smallest lottery number is: #{erik_min_lottery_no}"
+
 # 6. Return an array of Avril's lottery numbers that are even
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 # 8. Change Erik's hometown to Edinburgh
