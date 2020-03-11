@@ -80,6 +80,7 @@ avril_lottery_even_no = avril_lottery_no.select {|num| num.even? }
 p "The even numbers from Avrils' lottery numbers are: #{avril_lottery_even_no}"
 
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
+p "Eriks' new lottery numbers are: #{users["Erik"][:lottery_numbers].push(7)}"
 # 8. Change Erik's hometown to Edinburgh
 # 9. Add a pet dog to Erik called "Fluffy"
 # 10. Add another person to the users hash
