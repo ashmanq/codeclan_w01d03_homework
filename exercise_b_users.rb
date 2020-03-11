@@ -75,6 +75,10 @@ erik_min_lottery_no = erik_lottery_no.min
 p "Eriks' smallest lottery number is: #{erik_min_lottery_no}"
 
 # 6. Return an array of Avril's lottery numbers that are even
+avril_lottery_no = users["Avril"][:lottery_numbers]
+avril_lottery_even_no = avril_lottery_no.select {|num| num.even? }
+p "The even numbers from Avrils' lottery numbers are: #{avril_lottery_even_no}"
+
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 # 8. Change Erik's hometown to Edinburgh
 # 9. Add a pet dog to Erik called "Fluffy"
