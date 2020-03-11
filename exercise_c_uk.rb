@@ -27,6 +27,11 @@ united_kingdom.push({
   capital: "Belfast"
 })
 
-p united_kingdom
+#p united_kingdom
+
 # 3. Use a loop to print the names of all the countries in the UK.
+
+for country in united_kingdom
+  p country[:name]
+end
 # 4. Use a loop to find the total population of the UK.
