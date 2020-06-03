@@ -3,7 +3,7 @@ This app contains three scripts that I created to demonstrate my knowledge of ho
 arrays and hashes in the Ruby programming language.
 
 # Run App
-To run the app use the following command in terminal:
+To run the app use the following commands in terminal:
 ```Ruby
 ruby exercise_a_stops.rb
 ruby exercise_b_users.rb
